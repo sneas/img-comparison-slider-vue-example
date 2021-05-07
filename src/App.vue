@@ -1,26 +1,22 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <ImgComparisonSlider>
+    <!-- eslint-disable -->
+    <img
+        slot="before"
+        style="width: 100%"
+        src="https://sneas.github.io/img-comparison-slider/demo/images/cat.jpg"
+    />
+    <img
+        slot="after"
+        style="width: 100%"
+        src="https://sneas.github.io/img-comparison-slider/demo/images/dog.jpg"
+    />
+    <!-- eslint-enable -->
+  </ImgComparisonSlider>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  }
 }
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
