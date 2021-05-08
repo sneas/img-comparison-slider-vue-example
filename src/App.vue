@@ -16,7 +16,12 @@
 </template>
 
 <script>
+import { ImgComparisonSlider } from '@img-comparison-slider/vue'
+
 export default {
   name: 'App',
+  components: {
+    ImgComparisonSlider
+  }
 }
 </script>
