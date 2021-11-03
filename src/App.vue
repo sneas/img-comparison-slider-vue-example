@@ -2,14 +2,14 @@
   <ImgComparisonSlider>
     <!-- eslint-disable -->
     <img
-        slot="before"
+        slot="first"
         style="width: 100%"
-        src="https://sneas.github.io/img-comparison-slider/demo/images/cat.jpg"
+        src="https://img-comparison-slider.sneas.io/demo/images/before.webp"
     />
     <img
-        slot="after"
+        slot="second"
         style="width: 100%"
-        src="https://sneas.github.io/img-comparison-slider/demo/images/dog.jpg"
+        src="https://img-comparison-slider.sneas.io/demo/images/after.webp"
     />
     <!-- eslint-enable -->
   </ImgComparisonSlider>
