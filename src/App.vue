@@ -1,5 +1,5 @@
 <template>
-  <ImgComparisonSlider>
+  <ImgComparisonSlider direction="vertical">
     <!-- eslint-disable -->
     <img
         slot="first"
